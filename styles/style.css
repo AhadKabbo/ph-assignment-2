@@ -3,7 +3,44 @@
 * {
   margin: 0;
   padding: 0;
-
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+body {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* HEADER STYLES */
+header {
+  /* display: flex;
+  justify-content: center; */
+}
+.nev-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  border: solid red 3px;
+}
+.nev-logo {
+  margin-left: 100px;
+}
+.logo-name {
+  font-size: 45px;
+}
+.nev-anchor-list {
+}
+.nev-menus {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.menu-anchor a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  margin-right: 85px;
+}
+
+/* BANNER SECTION */
