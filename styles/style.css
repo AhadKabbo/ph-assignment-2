@@ -7,11 +7,12 @@
   font-family: "Work Sans", sans-serif;
 }
 body {
-  background-color: rgba(255, 144, 14, 0.1);
+  background-color: #ffffff;
 }
 
 /* HEADER STYLES */
 header {
+  background-color: rgba(255, 144, 14, 0.1);
   /* display: flex;
   justify-content: center; */
 }
@@ -20,18 +21,17 @@ header {
   justify-content: space-between;
   padding: 15px;
   align-items: center;
-  border: solid red 3px;
+  /* border: solid red 3px; */
 }
 .nev-logo {
-  margin-left: 100px;
+  margin-left: 65px;
 }
 .logo-name {
   font-size: 45px;
 }
-.nev-anchor-list {
-}
 .nev-menus {
   display: flex;
+  /* margin-right: 10px; */
 }
 li {
   list-style: none;
@@ -46,15 +46,14 @@ li {
 /* BANNER SECTION */
 
 .banner-section {
+  margin-top: 100px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   text-align: center;
 }
-.banner-text-section {
-  border: blue solid 3px;
-}
+
 .banner-title {
   padding: 15px 35px;
   font-size: 64px;
@@ -77,7 +76,6 @@ li {
   margin: 5px;
 }
 .banner-image-section {
-  border: blue solid 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,4 +84,59 @@ li {
   width: 1400px;
   height: 700px;
   margin: 50px 240px 56px;
+}
+
+/* Features Sections */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-section {
+  display: flex;
+  /* width: 1400px; */
+}
+
+.feature-left {
+  display: flex;
+  margin-top: 85px;
+  margin-left: 110px;
+  /* border: red solid 3px; */
+}
+.feature-images-row {
+  margin-left: 24px;
+}
+.image {
+  margin-bottom: 20px;
+}
+.feature-right {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+  margin-right: 110px;
+  /* border: red solid 3px; */
+}
+
+.feature-title {
+  color: rgba(114, 114, 114, 1);
+  padding: 0px 35px;
+  font-size: 45px;
+  font-weight: 500;
+  /* border: blue solid 3px; */
+}
+.title-black {
+  font-weight: bold;
+  color: rgba(19, 19, 19, 1);
+}
+.title-orange {
+  color: #ff900e;
+}
+.feature-btn {
+  background-color: #ff900e;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  margin-left: 35px;
 }
