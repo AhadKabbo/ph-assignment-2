@@ -44,3 +44,46 @@ li {
 }
 
 /* BANNER SECTION */
+
+.banner-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+.banner-text-section {
+  border: blue solid 3px;
+}
+.banner-title {
+  padding: 15px 35px;
+  font-size: 64px;
+  font-weight: 700;
+  /* border: blue solid 3px; */
+}
+.description {
+  /* border: blue solid 3px; */
+  color: #727272;
+  font-size: 16px;
+  padding: 25px 35px;
+}
+.btn {
+  background-color: #ff900e;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+}
+.banner-image-section {
+  border: blue solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-image-section img {
+  width: 1400px;
+  height: 700px;
+  margin: 50px 240px 56px;
+}
