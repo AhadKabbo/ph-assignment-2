@@ -117,9 +117,11 @@ li {
 /* BANNER SECTION RESPONSIVE */
 @media screen and (max-width: 600px) {
   .banner-image-section img {
-    width: 320px;
-    height: 200px;
-    margin: 50px 240px 56px;
+    width: 100%;
+    height: auto;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    margin: 50px 540px;
   }
 }
 
@@ -290,23 +292,28 @@ section {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-
-    /* border: red solid 3px; */
   }
   .fvrt-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 55px;
     margin-right: 0px;
     padding: 20px;
   }
   .fvrt-title {
+    text-align: center;
     font-size: 20px;
     padding: 15px 35px;
     border-left: 0px solid #ff900e;
     border-bottom: 5px solid #ff900e;
+  }
+  .fvrt-des {
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    padding: 15px 0px;
   }
   .example-title {
     margin-top: 23px;
